@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        form{ border: 2px solid grey;
+            display: flex;
+            flex-direction:column; 
+            Width: 20%;
+            margin: auto;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        input[type="email"],input[type="password"]{
+       height: 30px;
+       border-radius: 10px; 
+       border: 1px solid rgb(180, 97, 97);
+       padding:5px
+        }
+        label{
+            font-family: 'Times New Roman', Times, serif;
+            padding-bottom: 10px;
+            padding: top 10px;
+        }
+button{
+    background-color:aqua;
+    border: none;
+    width: 40%;
+    Height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px
+}
+
+.check{
+display: inline-block;    
+}
+
+a{
+    color: red;
+    font-weight: bold;
+    text-decoration:none;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+padding-top:20px;
+padding-bottom:20px
+}
+
+</style>
+
+</head>
+<body>
+   <form action="INDEX.HTML">
+    <label for="">Email: </label>
+    <input type="email" name="" id="" placeholder= "Enter Email" required >
+    <label for="">Password: </label>
+    <input type="password" name="" id="" placeholder= "Enter Password" required >
+    <div class="main">
+    <div class="check">
+    <input type="checkbox" name="" Id=""> <label for="">Remember Me</label>     
+    </div> 
+
+    <div class="forget">
+    <a href="">Forgot Passsword</a>
+    </div></div>
+    <button type="button">sign-in</button> 
+         
+    
+   </form> 
+   
+   
+    
+
+</body>
+</html>
